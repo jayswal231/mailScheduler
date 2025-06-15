@@ -1,0 +1,13 @@
+<h2>Reminders</h2>
+<a href="{% url 'add_reminder' %}">Add Reminder</a>
+<ul>
+  {% for reminder in reminders %}
+    <li>{{ reminder.subject }} at {{ reminder.schedule_time }}</li>
+  {% empty %}
+    <li>No reminders yet.</li>
+  {% endfor %}
+</ul>
+<form method="post" action="{% url 'logout' %}">
+  {% csrf_token %}
+  <button type="submit">Logout</button>
+</form>
