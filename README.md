@@ -27,10 +27,10 @@ and receive email notifications at the specified time.
 ## 🛠️ Installation
 for Ubuntu
 
-sudo apt update
-sudo apt install rabbitmq-server
-sudo service rabbitmq-server start
-pip install celery
+- sudo apt update
+- sudo apt install rabbitmq-server
+- sudo service rabbitmq-server start
+- pip install celery
 
 
 ## start server 
