@@ -1,4 +1,4 @@
-# 🕑 Django Reminder App with Celery & RabbitMQ
+# 🕑 Django mailScheduler App with Celery & RabbitMQ
 
 A simple reminder scheduler built with Django, Celery, and RabbitMQ. It lets users log in, schedule reminders,
 and receive email notifications at the specified time.
